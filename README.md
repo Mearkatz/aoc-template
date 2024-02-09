@@ -1,0 +1,1 @@
+A Rust template for use with cargo-generate to quickly create projects for solving advent of code problems.

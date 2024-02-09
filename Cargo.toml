@@ -1,0 +1,22 @@
+[package]
+name = "advent-of-code-template"
+version = "0.1.0"
+edition = "2021"
+authors = ["beetle"]
+description = "A binary for solving an advent of code problem"
+license = "MIT"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+enum_glob_use = "deny"
+pedantic = "deny"
+nursery = "deny"
+unwrap_used = "deny"
+expect_used = "deny"
+
+[dependencies]
+itertools = "0.12.1"
+strum = "0.26.1"
+strum_macros = "0.26.1"
